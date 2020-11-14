@@ -13,13 +13,13 @@ title: 'Tag Index'
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><img class="externalicon" src="/assets/img/icons8-tag-window-50.png" height=24rem/></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><img class="externalicon" src="/assets/img/icons8-tag-window-50.png" height=18rem/></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
 {%- endfor -%}
 
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
     <h2 id="{{- tag -}}" class="linked-section">
-        <img class="externalicon" src="/assets/img/icons8-tag-window-50.png" height=33rem/></i>
+        <img class="externalicon" src="/assets/img/icons8-tag-window-50.png" height=24rem/></i>
         &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
     </h2>
     <div class="post-list">

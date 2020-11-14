@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: '"Only by counting could humans demonstrate their independence of computers"'
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is <u>Raúl Marín Rodríguez</u> because my parents gave me two surnames at birth and they haven't asked me to give back any of them yet. At this point, I hope they never do because I'm rather fond of both of them.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I enjoy taking things that work and make them more efficient.
