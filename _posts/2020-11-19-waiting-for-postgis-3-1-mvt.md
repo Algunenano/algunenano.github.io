@@ -5,6 +5,7 @@ subtitle: 'On the improvements to MVT generation in PostGIS 3.1'
 tags: [postgis, performance]
 comments: false
 thumbnail-img: "../post_images/2020-11-20/mvt-single.webp"
+share-img	: "../post_images/2020-11-20/mvt-single.webp"
 ---
 
 I'm not big on creating new things, I would rather work on improving something that's already in use and has proven its usefulness. So whenever I’m thinking about what I should do next I tend to look for projects or features that are widely used, where the balance between development and runtime costs favors a more in depth approach.
