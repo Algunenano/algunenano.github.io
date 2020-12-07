@@ -1,0 +1,4 @@
+EXPLAIN (ANALYZE, TIMING OFF) SELECT ST_SRID(geom) FROM canada; -- ST_SRID
+--EXPLAIN (ANALYZE, TIMING OFF) SELECT ST_NDims(geom) FROM canada; -- ST_NDims
+--EXPLAIN (ANALYZE, TIMING OFF) SELECT * FROM canada WHERE geom && ST_TileEnvelope(3,1,1); -- Reading a tile
+--EXPLAIN (ANALYZE, TIMING OFF) SELECT a.gid, b.gid, a.geom && a.geom FROM canada a, canada b; -- Large geom &&
