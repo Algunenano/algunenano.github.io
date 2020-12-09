@@ -103,7 +103,7 @@
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
 
-  {% if img != "" %}
+  {% if img != "" % and img != site.avatar %}
   <meta property="og:image" content="{{ img | absolute_url }}">
   {% endif %}
 
@@ -130,7 +130,7 @@
   <meta property="twitter:title" content="{{ title }}">
   <meta property="twitter:description" content="{{ description }}">
 
-  {% if img != "" %}
+  {% if img != "" % and img != site.avatar %}
   <meta name="twitter:image" content="{{ img | absolute_url }}">
   {% endif %}
 
