@@ -521,6 +521,9 @@ footer .footer-custom-content {
   margin: 0;
   font-weight: 300;
   margin-bottom: 0.625rem;
+  font-size: 0.925rem;
+  text-align: center;
+  font-family: "Liberation Mono","Courier New",monospace;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
