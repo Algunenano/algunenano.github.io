@@ -3,6 +3,8 @@ layout: post
 title: "Using WebAssembly to add Argon2 to Snowflake"
 tags: [snowflake, webassembly]
 comments: false
+thumbnail-img: "../post_images/2020-12-14/query.webp"
+share-img	: "../post_images/2020-12-14/query.webp"
 ---
 
 [Snowflake](https://www.snowflake.com/) seems like one of the hottest databases of the moment. Sorry, data warehouse. Tomayto, tomahto. Anyway, I wanted to give it a try and see how hard it is to add new SQL functions to it.
