@@ -159,4 +159,4 @@ The process was relatively easy since it is really similar to BigQuery UDFs but 
 
 You can use WebAssembly in Snowflake but I don't expect the experience to be as good as with BigQuery. On the other hand, Snowflake supports the creation of [external functions](https://docs.snowflake.com/en/sql-reference/external-functions-introduction.html) that connect to external services, so maybe they expect you to use AWS Lambda or some other service to add new functions like this. I haven't tested it, but I wouldn't expect it to be as fast as doing the work directly in the database without any extra data transfer.
 
-All the code used is available in a [Github repo](https://github.com/Algunenano/snowflake_wasm/settings).
+All the code used is available in a [Github repo](https://github.com/Algunenano/snowflake_wasm/).
